@@ -34,7 +34,7 @@ python3 generator.py | python3 pdf_formatter.py -b "place your bottom text here"
 
 -l  Logo filename
 
-## Genrate multiple card sets
+## Generate multiple card sets
 ![Results](Results.png)
 
 This command will generate 5 card sets:
@@ -58,5 +58,5 @@ Formatting rules:
 	- the first one is the name of that card inside the set
 	- the second one is a Python list containing one list of integers for each row (of that card)
 - everything after the last pair of lines will be discarded (odd line)
-- blank fileds placeholder is -1
+- blank field placeholder is -1
 
